@@ -1,0 +1,141 @@
+/* ===========================
+   ASTRA AI v1.0 Dark Theme
+=========================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght=300;400;500;600;700&display=swap');
+
+html,
+body,
+[class*="css"] {
+    font-family: 'Poppins', sans-serif;
+    color: #f8fafc; /* Crisp white-gray text for readability */
+}
+
+/* Background - Deep Slate/Black to Dark Blue Gradient */
+.stApp {
+    background: linear-gradient(135deg, #090d16, #0f172a);
+}
+
+/* Sidebar - Pitch Black for clean separation */
+section[data-testid="stSidebar"] {
+    background: #020617;
+    color: #ffffff;
+}
+
+section[data-testid="stSidebar"] * {
+    color: #ffffff;
+}
+
+/* Main Titles - High contrast vibrant blues */
+h1 {
+    color: #3b82f6;
+    font-weight: 700;
+}
+
+h2 {
+    color: #60a5fa;
+}
+
+h3 {
+    color: #93c5fd;
+}
+
+/* Cards - Dark translucent container to overlay nicely on the background */
+div[data-testid="metric-container"] {
+    background: #1e293b;
+    border: 1px solid #334155;
+    border-radius: 18px;
+    padding: 18px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, .4);
+    transition: .3s;
+}
+
+div[data-testid="metric-container"]:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 35px rgba(37, 99, 235, .30);
+    border-color: #3b82f6;
+}
+
+/* Inherited metric text colors for dark mode visibility */
+div[data-testid="metric-container"] label,
+div[data-testid="metric-container"] [data-testid="stMetricValue"] {
+    color: #ffffff !important;
+}
+
+/* Buttons */
+.stButton>button {
+    width: 100%;
+    border: none;
+    border-radius: 14px;
+    background: #2563eb;
+    color: white;
+    font-weight: 600;
+    padding: 12px;
+    transition: .3s;
+}
+
+.stButton>button:hover {
+    background: #3b82f6;
+    transform: scale(1.03);
+    box-shadow: 0 0 15px rgba(37, 99, 235, 0.4);
+}
+
+/* Text Input & Textareas - Deep dark fields */
+.stTextInput input, textarea {
+    border-radius: 12px !important;
+    background-color: #0f172a !important;
+    color: #ffffff !important;
+    border: 1px solid #334155 !important;
+}
+
+/* Select Box */
+div[data-baseweb="select"] {
+    border-radius: 12px;
+    background-color: #0f172a !important;
+}
+
+div[data-baseweb="select"] * {
+    color: #ffffff !important;
+}
+
+/* Progress Bar */
+.stProgress>div>div {
+    background: #2563eb;
+}
+
+/* Alerts - Dark mode adjusted backgrounds */
+.stSuccess, .stInfo, .stWarning, .stError {
+    border-radius: 12px;
+    color: #ffffff !important;
+}
+
+/* Expander */
+details {
+    border-radius: 14px;
+    background: #1e293b;
+    border: 1px solid #334155;
+}
+
+/* Footer */
+footer {
+    visibility: hidden;
+}
+
+/* Horizontal Line - Subtle dark border */
+hr {
+    border: 1px solid #334155;
+}
+
+/* Scrollbar - Optimized for Dark Theme */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #3b82f6;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #090d16;
+}

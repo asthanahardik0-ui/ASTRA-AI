@@ -1,0 +1,33 @@
+[
+    {
+        "student_id": "ASTRA-000001",
+        "name": "hardik",
+        "class": "6",
+        "password": "1e5f0a3323ab3de54aa066733117973287e57cf5cb35da6eed3c5edee1959741",
+        "xp": 0,
+        "level": 1,
+        "study_streak": 0,
+        "completed_quizzes": 0,
+        "uploaded_pdfs": 0,
+        "daily_goal": 2,
+        "weak_subject": "",
+        "target_exam": "",
+        "exam_date": ""
+    },
+    {
+        "student_id": "ASTRA-000002",
+        "name": "Hardik Asthana",
+        "class": "12",
+        "password": "1e5f0a3323ab3de54aa066733117973287e57cf5cb35da6eed3c5edee1959741",
+        "xp": 0,
+        "level": 1,
+        "badges": [],
+        "study_streak": 0,
+        "completed_quizzes": 0,
+        "uploaded_pdfs": 0,
+        "daily_goal": 2,
+        "weak_subject": "",
+        "target_exam": "",
+        "exam_date": ""
+    }
+]
